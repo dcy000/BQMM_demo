@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bqmm_demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">发送</string>
+    <string name="mode_single">不混排</string>
+    <string name="mode_multiple">混排</string>
+</resources>

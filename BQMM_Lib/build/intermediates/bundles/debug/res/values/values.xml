@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/values/color.xml -->
+    <eat-comment/>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="bqmm_transparent">#00000000</color>
+    <color name="pop_bg">#eeffffff</color>
+    <declare-styleable name="AnimDownloadProgressButton"><attr format="float" name="progressbtn_radius"/><attr format="color" name="progressbtn_backgroud_color"/><attr format="color" name="progressbtn_backgroud_second_color"/><attr format="color" name="progressbtn_text_color"/><attr format="color" name="progressbtn_text_covercolor"/></declare-styleable>
+    <declare-styleable name="CustomTheme"><attr format="reference" name="gifMoviewViewStyle"/></declare-styleable>
+    <declare-styleable name="GifMoviewView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable>
+    <declare-styleable name="ProgressTextView"><attr format="reference" name="reachBarColor"/><attr format="reference" name="reachTextColor"/><attr format="reference" name="unReachBarColor"/><attr format="reference" name="unReachTextColor"/><attr format="float" name="progress"/></declare-styleable>
+    <!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">BQMM_Lib</string>
+    <string name="bqmm_downloaded"> %s %%</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Widget.GifMoviewView" parent="@android:style/Widget"/>
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+</resources>

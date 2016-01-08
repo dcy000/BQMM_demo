@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bqmm_lib.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        />
+
+</menu>
+<!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/menu/main.xml --><!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/build/intermediates/bundles/debug/res/menu/main.xml -->

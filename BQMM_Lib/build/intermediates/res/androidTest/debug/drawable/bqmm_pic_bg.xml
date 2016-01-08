@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <!-- view background -->
+    <solid android:color="#cfcfcf"/>
+</shape>
+<!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/res/drawable/bqmm_pic_bg.xml --><!-- From: file:/E:/Demo_discuss/Bqmm_demo/BQMM_Lib/build/intermediates/bundles/debug/res/drawable/bqmm_pic_bg.xml -->

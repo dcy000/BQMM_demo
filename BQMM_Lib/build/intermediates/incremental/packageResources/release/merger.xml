@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res"><file name="slide_in_from_left" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\anim\slide_in_from_left.xml" qualifiers="" type="anim"/><file name="slide_in_from_right" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\anim\slide_in_from_right.xml" qualifiers="" type="anim"/><file name="slide_out_to_left" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\anim\slide_out_to_left.xml" qualifiers="" type="anim"/><file name="slide_out_to_right" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\anim\slide_out_to_right.xml" qualifiers="" type="anim"/><file name="bg_chat_time_tag" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable\bg_chat_time_tag.xml" qualifiers="" type="drawable"/><file name="bqmm_pic_bg" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable\bqmm_pic_bg.xml" qualifiers="" type="drawable"/><file name="bqmm_selector_tab_bg" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable\bqmm_selector_tab_bg.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="bqmm_item_emoji" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\layout\bqmm_item_emoji.xml" qualifiers="" type="layout"/><file name="bqmm_item_face" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\layout\bqmm_item_face.xml" qualifiers="" type="layout"/><file name="main" path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\menu\main.xml" qualifiers="" type="menu"/><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values\attrs.xml" qualifiers=""><declare-styleable name="AnimDownloadProgressButton">
+        <attr format="float" name="progressbtn_radius"/>
+        <attr format="color" name="progressbtn_backgroud_color"/>
+        <attr format="color" name="progressbtn_backgroud_second_color"/>
+        <attr format="color" name="progressbtn_text_color"/>
+        <attr format="color" name="progressbtn_text_covercolor"/>
+    </declare-styleable><declare-styleable name="CustomTheme">
+        <attr format="reference" name="gifMoviewViewStyle"/>
+    </declare-styleable><declare-styleable name="GifMoviewView">
+        <attr format="reference" name="gif"/>
+        <attr format="boolean" name="paused"/>
+    </declare-styleable><declare-styleable name="ProgressTextView">
+        <attr format="reference" name="reachBarColor"/>
+        <attr format="reference" name="reachTextColor"/>
+        <attr format="reference" name="unReachBarColor"/>
+        <attr format="reference" name="unReachTextColor"/>
+        <attr format="float" name="progress"/>
+    </declare-styleable></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values\color.xml" qualifiers=""><color name="pop_bg">#eeffffff</color><color name="background_tab_pressed">#6633B5E5</color><color name="bqmm_transparent">#00000000</color></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="bqmm_downloaded"> %s %%</string><string name="app_name">BQMM_Lib</string></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style><style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="Widget.GifMoviewView" parent="@android:style/Widget"/></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\build\generated\res\rs\release"/><source path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="E:\Demo_discuss\Bqmm_demo\BQMM_Lib\build-types\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AnimDownloadProgressButton"><attr format="float" name="progressbtn_radius"/><attr format="color" name="progressbtn_backgroud_color"/><attr format="color" name="progressbtn_backgroud_second_color"/><attr format="color" name="progressbtn_text_color"/><attr format="color" name="progressbtn_text_covercolor"/></declare-styleable><declare-styleable name="ProgressTextView"><attr format="reference" name="reachBarColor"/><attr format="reference" name="reachTextColor"/><attr format="reference" name="unReachBarColor"/><attr format="reference" name="unReachTextColor"/><attr format="float" name="progress"/></declare-styleable><declare-styleable name="CustomTheme"><attr format="reference" name="gifMoviewViewStyle"/></declare-styleable><declare-styleable name="GifMoviewView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable></configuration></mergedItems></merger>
